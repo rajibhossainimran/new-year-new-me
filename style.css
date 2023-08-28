@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+}
+.header-container{
+    background-color: rgb(230, 230, 230);
+    padding-bottom: 150px;
+    background-image: url(images/banner/banner2.png);
+}
+.banner{
+    margin-left: 50%;
+    margin-right: 10%;
+    padding: 80px 30px 33px;
+    text-align: end;
+}
+.banner-tittle{
+    padding: 90px 0 33px;
+    font-size: 50px;
+    font-weight: 900;
+}
+.contact-btn{
+    margin-top: 20px;
+    background-color: rgb(238, 111, 53);
+    padding: 9px 73px 9px;
+    font-size: 22px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
