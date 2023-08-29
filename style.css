@@ -1,3 +1,5 @@
+
+@import url('https://unpkg.com/css.gg@2.0.0/icons/css/check.css');
 *{
     margin: 0;
 }
@@ -26,3 +28,145 @@
     border-radius: 5px;
     color: white;
 }
+main{
+    width: 1000px;
+    margin: 0 auto;
+   
+}
+
+/* ---------------failur section---------- */
+.failur-container{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.text-container{
+    
+}
+.failur-tittle{
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.failur-text{
+    margin-bottom: 20px;
+    color: rgb(110, 110, 110);
+}
+.failur-flex{
+    list-style: none;
+    display: flex;
+    margin: 5px 0;
+}
+.gg-check{
+    color: green;
+ 
+}
+.failur-list-text{
+    color: rgb(110, 110, 110);
+}
+/* -----------my plan section---------- */
+.my-plan{
+    margin-top: 100px;
+}
+.my-plan-tittle{
+   text-align: center;
+   font-size: 40px;
+   
+}
+.plan-container{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+.plan-tittle{
+    margin: 20px 0 5px;
+    font-size: 22px;
+}
+.plan-text{
+    margin: 5px 0 7px;
+}
+.plan-card{
+    text-align: center;
+}
+/* --------------mindset section-------- */
+.mindset{
+    margin: 120px auto;
+}
+.mindset-container{
+    height: 250px;
+    background-color: bisque;
+    background-image: url(images/gradient3.png),url(images/watch.png);
+    
+}
+.mindset-tittle{
+    font-size: 40px;
+    padding-left: 50px;
+    padding-top: 30px;
+    color:white;
+}
+.mindset-btn{
+    margin-top: 20px;
+    margin-left: 50px;
+    background-color: rgb(255, 255, 255);
+    padding: 9px 73px 9px;
+    font-size: 22px;
+    border: none;
+    border-radius: 5px;
+    color: rgb(207, 100, 0);
+}
+/* -----------footer part --------------- */
+footer{
+    background-color: black;
+    height: 500px;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    margin: 0 auto;
+    color: white;
+    padding-top: 100px;
+}
+.footer-btn{
+    background-color: rgb(255, 255, 255);
+    padding: 19px 43px 19px;
+    font-size: 22px;
+    border: none;
+    border-radius: 5px;
+    color: rgb(207, 100, 0);
+}
+.footer-tittle{
+    font-size: 50px;
+}
+footer p{
+    margin-top: 25px;
+    color: rgb(182, 181, 181);
+}
+.footer-left{
+    width: 50%;
+}
+.footer-icon{
+    margin-top: 30px;
+}
+.footer-icon img{
+    margin-right: 10px;
+}
+.right-tittle{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.footer-right input{
+margin-top: 10px;
+margin-bottom: 20px;
+border: 1px solid white;
+background-color: black;
+color: white;
+border-radius: 10px;
+padding: 15px 25px;
+font-size: 18px;
+}
+input::placeholder {
+    font-size: 18px;
+    font-weight: bold;
+    opacity: 0.5;
+    color: rgb(255, 255, 255);
+  }
